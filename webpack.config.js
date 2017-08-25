@@ -77,6 +77,12 @@ module.exports = {
         use: [
           'file-loader'
         ]
+      },
+      {
+        test: /\.(mov|mp4|mp3)$/,
+        use: [
+          'file-loader'
+        ]
       }
     ]
   }
