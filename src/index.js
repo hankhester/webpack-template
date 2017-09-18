@@ -1,6 +1,5 @@
 import './main.sass'
-import home from './home.pug'
-import './home'
+import view from './view.pug'
 
-let html = home()
+let html = view({ name: 'Hank' })
 document.body.innerHTML = html
